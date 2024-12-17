@@ -3,12 +3,11 @@ int main()
 {
     int a;
     int b;
-    scanf("%d", &a);
-    scanf("%d", &b);
+    scanf("%d%d", &a, &b);
     if (b > a)
     {
         printf("%d greater than %d\n", b, a);
-        printf("greater than %d",(b-a));
+        printf("greater than %d", (b - a));
     }
     else
     {
